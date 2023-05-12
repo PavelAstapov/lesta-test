@@ -1,0 +1,45 @@
+.logo-block {
+  position: absolute;
+  top: -4px;
+  left: 6%;
+  width: 369px;
+  border: 4px solid transparent;
+  background: linear-gradient(#000000, #000000) padding-box, linear-gradient(180deg, #FFC000 1%, #EF4511 100%) border-box;
+  padding: 25px 40px 87px 40px;
+  text-align: center;
+
+  @media (max-width: 1900px) {
+    width: 300px;
+  }
+
+  p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 298px;
+    margin: 15px auto 41px auto;
+  }
+
+  button {
+    border: none;
+    padding: 25px 30px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 84.9%), linear-gradient(180deg, rgba(255, 204, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 81.25%), #F25322;
+    background-blend-mode: multiply, overlay, normal;
+    box-shadow: 0px 1.625px 0px #661000, inset 0px 0px 6.5px rgba(255, 217, 102, 0.1);
+    font-weight: 700;
+    font-size: 24.4603px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background: #db4c20;
+    }
+  }
+}

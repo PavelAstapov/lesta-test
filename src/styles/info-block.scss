@@ -1,0 +1,44 @@
+.info-block {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  border: 4px solid transparent;
+  border-radius: 6px;
+  background: linear-gradient(#000000, #000000) padding-box, linear-gradient(180deg, #FFC000 1%, #EF4511 100%) border-box;
+  padding: 28px 32px 33px 32px;
+
+  @media (max-width: 1900px) {
+    right: 5%;
+    top: 7%
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41.2632px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+  }
+
+  .info-wrapper {
+    .info-line {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #D7D2B8;
+      min-width: 380px;
+      border-bottom: 1px dashed #4B4B4B;
+      padding: 3px 0 8px 0;
+
+      span:last-child {
+        min-width: 118px;
+      }
+    }
+  }
+}
